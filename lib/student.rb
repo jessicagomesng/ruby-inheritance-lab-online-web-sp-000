@@ -1,7 +1,5 @@
 class Student < User
 
-  KNOWLEDGE = []
-
   def initialize
     KNOWLEDGE = []
   end
@@ -12,5 +10,5 @@ class Student < User
 
   def knowledge
     KNOWLEDGE
-  end 
+  end
 end
