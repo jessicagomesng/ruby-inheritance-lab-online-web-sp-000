@@ -8,6 +8,9 @@ class Student < User
 
   def learn(knowledge)
     KNOWLEDGE << knowledge
-  end 
+  end
 
+  def knowledge
+    KNOWLEDGE
+  end 
 end
