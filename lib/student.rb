@@ -1,6 +1,7 @@
 class Student < User
 
-  KNOWLEDGE = []
+  @KNOWLEDGE = []
+
   def initialize
   end
 
