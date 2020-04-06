@@ -3,7 +3,7 @@ class Student < User
   attr_accessor :KNOWLEDGE
 
   def initialize(knowledge = [])
-    @KNOWLEDGE = knowledge
+    @knowledge = knowledge
   end
 
   def learn(knowledge)
